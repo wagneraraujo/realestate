@@ -1,5 +1,6 @@
 
 import React from 'react'
+import HeroForm from '../HeroForm'
 
 export default function HeroBanner() {
   return (
@@ -42,6 +43,9 @@ export default function HeroBanner() {
             Learn More
           </a>
         </div>
+      </div>
+      <div className="max-w-xl text-left ">
+        <HeroForm />
       </div>
     </div>
   </section>
