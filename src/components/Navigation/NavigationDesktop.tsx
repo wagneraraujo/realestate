@@ -1,6 +1,6 @@
-import { navigationLinks } from "@/features/utils/navigationLinks";
 import Link from "next/link";
 import { NavigationLinks } from "./navigationLinks";
+import { navigationLinks } from "features/utils/navigationLinks";
 
 export const NavigationDesktop = () => {
   return (

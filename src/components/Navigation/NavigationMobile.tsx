@@ -1,8 +1,8 @@
 "use client";
-import { navigationLinks } from "@/features/utils/navigationLinks";
 import { NavigationLinks } from "./navigationLinks";
 import { HiMenuAlt2 } from "react-icons/hi";
-import { useState } from "react";
+import React, { useState } from "react";
+import { navigationLinks } from "features/utils/navigationLinks";
 export const NavigationMobile = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const openMenu = () => {
